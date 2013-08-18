@@ -1,12 +1,6 @@
-#portions of this script from Seth Hall's github 
-#Copyright (c) 2010, Seth Hall <hall.692@osu.edu> and The Ohio State 
-#University. All rights reserved.
-
-#See License file in directory
-
+#Copyright (c) 2012-2013, Liam Randall. All rights reserved.
 #modified by JP Bourget for Broniversity Lessons (2013) w/License Permission
 
-#we load scripts in addition to base here - so if we run this with "Bro -r it will load"
 @load base/protocols/conn
 @load base/protocols/http
 @load base/protocols/ssl
@@ -14,10 +8,12 @@
 
 module Conn;
 
+redef record Conn::Info += {
+    resp_hostname: string &optional &log;
+};
 
 event http_header (c: connection, is_orig: bool, name: string, value: string)
 {
-    print c;
     if(name == "HOST") {
         if(!c?$conn)
             Conn::set_conn(c, F);
@@ -27,7 +23,6 @@ event http_header (c: connection, is_orig: bool, name: string, value: string)
 
 event ssl_established(c: connection)
 {
-    print c;
     if(c?$ssl && c$ssl?$server_name) {
         if(!c?$conn)
             Conn::set_conn(c, F);
@@ -35,7 +30,14 @@ event ssl_established(c: connection)
     }
 }
 
-
+event bro_init()
+{
+    Log::add_filter(Conn::LOG, [$name = "conn-hostnames",
+                                $path = "conn_hostnames",
+                                $pred(rec: Conn::Info) = {
+        return (rec?$resp_hostname);
+    }]);
+}
 
 
 
