@@ -1,4 +1,5 @@
-
+#Copyright (c) 2012-2013, Liam Randall. All rights reserved.
+#modified by JP Bourget for Broniversity Lessons (2013) w/License Permission
 
 @load base/protocols/conn
 @load base/protocols/http
