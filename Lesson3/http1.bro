@@ -17,21 +17,33 @@ module Conn;
 
 event http_header (c: connection, is_orig: bool, name: string, value: string)
 {
-    print c;
-    if(name == "HOST") {
-        if(!c?$conn)
-            Conn::set_conn(c, F);
-        c$conn$resp_hostname = value;
-    }
+    print fmt("/////////////////////");
+    print c$http;
+    print fmt("Name:    %s", name);
+    print fmt("Value:   %s", value);
+    if ( c$http$method == "POST") {
+        print fmt("POST!!!!!!!!");
+        }
+  
+
+    #print c$id$resp_h;
+    print fmt("---------------------------");
+       # if(!c?$conn)
+        #    Conn::set_conn(c, F);
+       # c$conn$resp_hostname = value;
 }
 
 event ssl_established(c: connection)
 {
     print c;
+    print fmt("SSL-Bitches: %s", c$ssl);
     if(c?$ssl && c$ssl?$server_name) {
-        if(!c?$conn)
-            Conn::set_conn(c, F);
-        c$conn$resp_hostname = c$ssl$server_name;
+        #print c$conn$resp_h;
+        #print fmt("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+        print fmt("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+       # if(!c?$conn)
+      #      Conn::set_conn(c, F);
+       # c$conn$resp_hostname = c$ssl$server_name;
     }
 }
 
