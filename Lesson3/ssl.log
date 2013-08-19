@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2013-08-18-18-38-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string
+1376865527.580921	pl2po1XMOkk	2600:1009:b024:bcfb:3d94:7e67:cfcb:786f	59789	2607:f8b0:4009:802::1010	443	TLSv11	TLS_ECDHE_RSA_WITH_RC4_128_SHA	www.google.com	64b5f2dd4f9e512f8466b42c564e3abf0a1726b88f42253612c59ec9a1bf154c	-	-	-	-	-	-	-
+1376865527.581131	nZPfCzorUAh	2600:1009:b024:bcfb:3d94:7e67:cfcb:786f	59790	2607:f8b0:4009:802::1010	443	TLSv11	TLS_ECDHE_RSA_WITH_RC4_128_SHA	www.google.com	64b5f2dd4f9e512f8466b42c564e3abf0a1726b88f42253612c59ec9a1bf154c	-	-	-	-	-	-	-
+#close	2013-08-18-18-38-49
