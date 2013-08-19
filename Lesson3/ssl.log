@@ -3,9 +3,11 @@
 #empty_field	(empty)
 #unset_field	-
 #path	ssl
-#open	2013-08-18-18-38-48
+#open	2013-08-18-20-32-43
 #fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject
 #types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string
-1376865527.580921	pl2po1XMOkk	2600:1009:b024:bcfb:3d94:7e67:cfcb:786f	59789	2607:f8b0:4009:802::1010	443	TLSv11	TLS_ECDHE_RSA_WITH_RC4_128_SHA	www.google.com	64b5f2dd4f9e512f8466b42c564e3abf0a1726b88f42253612c59ec9a1bf154c	-	-	-	-	-	-	-
-1376865527.581131	nZPfCzorUAh	2600:1009:b024:bcfb:3d94:7e67:cfcb:786f	59790	2607:f8b0:4009:802::1010	443	TLSv11	TLS_ECDHE_RSA_WITH_RC4_128_SHA	www.google.com	64b5f2dd4f9e512f8466b42c564e3abf0a1726b88f42253612c59ec9a1bf154c	-	-	-	-	-	-	-
-#close	2013-08-18-18-38-49
+1376872362.496461	nWdRfkrMhE1	2600:1009:b024:bcfb:e4ec:b13f:c315:4a42	60877	2a03:2880:10:5f07:face:b00c:0:1	443	TLSv11	TLS_RSA_WITH_RC4_128_SHA	www.facebook.com	-	CN=*.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1340251200.000000	1388552399.000000	-	-	-
+1376872363.139995	5caswzjqqg	2600:1009:b024:bcfb:e4ec:b13f:c315:4a42	60896	2606:2800:220:1c85:99b:1b56:207e:ea5	443	TLSv11	TLS_RSA_WITH_RC4_128_SHA	widgets.wp.com	ec406dc3db870cb3fd530d40380889db18782b327e8e39e4f9d5e5b2b5c78de8	CN=*.wp.com,OU=Domain Control Validated,O=*.wp.com	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1336774966.000000	1431382966.000000	-	-	-
+1376872363.144329	cm0g4liPOO	2600:1009:b024:bcfb:e4ec:b13f:c315:4a42	60895	2606:2800:220:1c85:99b:1b56:207e:ea5	443	TLSv11	TLS_RSA_WITH_RC4_128_SHA	widgets.wp.com	ec406dc3db870cb3fd530d40380889db18782b327e8e39e4f9d5e5b2b5c78de8	CN=*.wp.com,OU=Domain Control Validated,O=*.wp.com	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1336774966.000000	1431382966.000000	-	-	-
+1376872363.160292	tTImWfw0NOl	2600:1009:b024:bcfb:e4ec:b13f:c315:4a42	60897	2606:2800:220:1c85:99b:1b56:207e:ea5	443	TLSv11	TLS_RSA_WITH_RC4_128_SHA	widgets.wp.com	ec406dc3db870cb3fd530d40380889db18782b327e8e39e4f9d5e5b2b5c78de8	CN=*.wp.com,OU=Domain Control Validated,O=*.wp.com	serialNumber=07969287,CN=Go Daddy Secure Certification Authority,OU=http://certificates.godaddy.com/repository,O=GoDaddy.com\, Inc.,L=Scottsdale,ST=Arizona,C=US	1336774966.000000	1431382966.000000	-	-	-
+#close	2013-08-18-20-32-49

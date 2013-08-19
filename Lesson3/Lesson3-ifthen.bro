@@ -11,14 +11,14 @@ print fmt("Is Orig:   %s", is_orig);
 print fmt("Name: %s", name);
 print fmt("Value: %s", value);
 
-if ( c$http$method == "POST") {
+if ( c$http$method == "HOST") {
         print fmt("********");
-        print fmt("POST!!!!!!!!");
+        print fmt("HOST!!!!!!!!");
         print fmt("********");
     }
 else
     {
-    print fmt("NOT POST :(");
+    print fmt("NOT HOST :(");
     }
 
 ###Visual Separator - we'll get alot of Data here

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2013-08-18-20-32-45
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1376872365.133441	YTqcrEmokHk	172.20.10.5	141.101.117.117	O3R2LaknbM1	HTTP	0	(empty)	text/plain	-	0.000000	-	T	91	91	0	0	F	-	-	-	-	-
+1376872366.310808	97DSBzLCrB4	141.101.117.117	172.20.10.5	O3R2LaknbM1	HTTP	0	(empty)	application/octet-stream	-	0.000000	-	F	1	-	0	0	F	-	-	-	-	-
+1376872366.962840	E65tMFLpVkb	141.101.117.117	172.20.10.5	O3R2LaknbM1	HTTP	0	(empty)	text/plain	-	0.443406	-	F	172932	-	0	0	F	-	-	-	-	-
+1376872368.047270	frBynTqutFc	141.101.116.117	172.20.10.5	7NWrgabzzvc	HTTP	0	(empty)	text/plain	-	0.521014	-	F	307571	-	0	0	F	-	-	-	-	-
+1376872368.649235	Rrht0ccCVr	141.101.117.117	172.20.10.5	O3R2LaknbM1	HTTP	0	(empty)	text/plain	-	0.000000	-	F	280	-	0	0	F	-	-	-	-	-
+1376872369.411117	TlpMj1DtX2i	141.101.117.117	172.20.10.5	shw9vOnNkf6	HTTP	0	(empty)	text/plain	-	0.000000	-	F	2451	-	0	0	F	-	-	-	-	-
+#close	2013-08-18-20-32-49

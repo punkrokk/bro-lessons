@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2013-08-18-20-32-45
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1376872365.117164	ZSvICwW1Wqg	172.20.10.5	60894	141.101.117.117	80	above_hole_data_without_any_acks	-	F	bro
+#close	2013-08-18-20-32-49
