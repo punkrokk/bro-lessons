@@ -11,7 +11,7 @@ print fmt("Is Orig:   %s", is_orig);
 print fmt("Name: %s", name);
 print fmt("Value: %s", value);
 
-if ( c$http$method == "HOST") {
+if ( name  == "HOST") {
         print fmt("********");
         print fmt("HOST!!!!!!!!");
         print fmt("********");
