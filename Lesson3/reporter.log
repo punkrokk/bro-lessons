@@ -3,9 +3,24 @@
 #empty_field	(empty)
 #unset_field	-
 #path	reporter
-#open	2013-08-18-20-48-36
+#open	2013-08-21-14-32-01
 #fields	ts	level	message	location
 #types	time	enum	string	string
-1376873316.355802	Reporter::INFO	received termination signal	(empty)
-1376873316.355802	Reporter::INFO	1074 packets received on interface en0, 0 dropped\x0a	(empty)
-#close	2013-08-18-20-48-36
+1377109921.257920	Reporter::WARNING	Your interface is likely receiving invalid IP checksums, most likely from NIC checksum offloading.	/usr/local/bro/share/bro/base/misc/find-checksum-offloading.bro, line 42
+1377109934.804945	Reporter::ERROR	field value missing [Conn::c$http$method]	./http1.bro, line 24
+1377109934.804945	Reporter::ERROR	field value missing [Conn::c$http$method]	./http1.bro, line 24
+1377109934.804945	Reporter::ERROR	field value missing [Conn::c$http$method]	./http1.bro, line 24
+1377109934.804945	Reporter::ERROR	field value missing [Conn::c$http$method]	./http1.bro, line 24
+1377109934.804945	Reporter::ERROR	field value missing [Conn::c$http$method]	./http1.bro, line 24
+1377109934.804945	Reporter::ERROR	field value missing [Conn::c$http$method]	./http1.bro, line 24
+1377109934.804945	Reporter::ERROR	field value missing [Conn::c$http$method]	./http1.bro, line 24
+1377109934.804945	Reporter::ERROR	field value missing [Conn::c$http$method]	./http1.bro, line 24
+1377109934.804945	Reporter::ERROR	field value missing [Conn::c$http$method]	./http1.bro, line 24
+1377109934.804945	Reporter::ERROR	field value missing [Conn::c$http$method]	./http1.bro, line 24
+1377109934.804945	Reporter::ERROR	field value missing [Conn::c$http$method]	./http1.bro, line 24
+1377109934.804945	Reporter::ERROR	field value missing [Conn::c$http$method]	./http1.bro, line 24
+1377109934.804945	Reporter::ERROR	field value missing [Conn::c$http$method]	./http1.bro, line 24
+1377109934.804945	Reporter::ERROR	field value missing [Conn::c$http$method]	./http1.bro, line 24
+1377109937.255445	Reporter::INFO	received termination signal	(empty)
+1377109937.255445	Reporter::INFO	1840 packets received on interface en4, 0 dropped\x0a	(empty)
+#close	2013-08-21-14-32-17

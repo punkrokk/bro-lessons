@@ -3,14 +3,8 @@
 #empty_field	(empty)
 #unset_field	-
 #path	http
-#open	2013-08-18-20-48-20
+#open	2013-08-21-14-32-14
 #fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
 #types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
-1376873299.924561	xWcmeWTOP8c	172.20.10.5	61046	199.16.156.83	80	1	GET	syndication.twimg.com	/widgets/timelines/paged/310783162055790592?dnt=true&domain=www.bro.org&lang=en&since_id=366913204409991168&callback=twttr.tfw.callbacks.tlPoll_310783162055790592_1_366913204409991168&suppress_response_codes=true	http://www.bro.org/bro-exchange-2013/exercises/sumstats.html	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36	0	253	200	OK	-	-	-	(empty)	-	-	-	-	-	sns2MfWoHal	text/plain
-1376873302.457848	xWcmeWTOP8c	172.20.10.5	61046	199.16.156.83	80	2	GET	syndication.twimg.com	/widgets/timelines/paged/310783162055790592?dnt=true&domain=www.bro.org&lang=en&since_id=366913204409991168&callback=twttr.tfw.callbacks.tlPoll_310783162055790592_1_366913204409991168&suppress_response_codes=true	http://www.bro.org/documentation/broctl.broctl.html	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36	0	253	200	OK	-	-	-	(empty)	-	-	-	-	-	FkfUFR0sxr6	text/plain
-1376873308.529248	fsnxaoyZ1c7	2600:1009:b024:bcfb:e4ec:b13f:c315:4a42	61053	2607:f8b0:4009:802::1010	80	1	GET	www.google.com	/googlevoice/audio/bell.mp3	-	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36	0	0	304	Not Modified	-	-	-	(empty)	-	-	-	-	-	-	-
-1376873311.297448	zaKIOWi5Dql	172.20.10.5	61054	54.225.159.243	80	1	GET	www.strava.com	/	-	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36	0	97	302	Found	-	-	-	(empty)	-	-	-	-	-	1DQUL0GpD6i	text/html
-1376873312.167896	zaKIOWi5Dql	172.20.10.5	61054	54.225.159.243	80	2	GET	www.strava.com	/dashboard	-	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36	0	255441	200	OK	-	-	-	(empty)	-	-	-	-	-	G68eTyRL6n2	text/html
-1376873315.608621	dSNwgkrZyc8	172.20.10.5	61075	205.251.253.120	80	1	GET	d26ifou2tyrp3u.cloudfront.net	/assets/strava-app-feed-1dd0a2485c6b4322094c79364a2ebd05.css	http://www.strava.com/dashboard	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36	0	2317	200	OK	-	-	-	(empty)	-	-	-	-	-	T9qzsnpiiv	text/plain
-1376873315.608560	SRyUlvZXRWc	172.20.10.5	61076	205.251.253.120	80	1	GET	d26ifou2tyrp3u.cloudfront.net	/assets/application-5f15495d4e1321b5007475dc8fae9806.css	http://www.strava.com/dashboard	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36	0	2803	200	OK	-	-	-	(empty)	-	-	-	-	-	O4NfdFrNWS8	text/plain
-#close	2013-08-18-20-48-36
+1377109934.804945	VO4uZjsthhi	172.16.168.116	60547	107.21.223.173	80	0	-	-	-	-	-	0	97	302	Found	-	-	-	(empty)	-	-	-	-	-	gLjXNcDwuVd	text/html
+#close	2013-08-21-14-32-17

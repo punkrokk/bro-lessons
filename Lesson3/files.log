@@ -3,13 +3,8 @@
 #empty_field	(empty)
 #unset_field	-
 #path	files
-#open	2013-08-18-20-48-20
+#open	2013-08-21-14-32-14
 #fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
 #types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
-1376873300.303163	sns2MfWoHal	199.16.156.83	172.20.10.5	xWcmeWTOP8c	HTTP	0	(empty)	text/plain	-	0.000000	-	F	253	-	0	0	F	-	-	-	-	-
-1376873302.930394	FkfUFR0sxr6	199.16.156.83	172.20.10.5	xWcmeWTOP8c	HTTP	0	(empty)	text/plain	-	0.000000	-	F	253	-	0	0	F	-	-	-	-	-
-1376873312.165767	1DQUL0GpD6i	54.225.159.243	172.20.10.5	zaKIOWi5Dql	HTTP	0	(empty)	text/html	-	0.000000	-	F	97	97	0	0	F	-	-	-	-	-
-1376873315.030500	G68eTyRL6n2	54.225.159.243	172.20.10.5	zaKIOWi5Dql	HTTP	0	(empty)	text/html	-	0.864477	-	F	255441	-	0	0	F	-	-	-	-	-
-1376873316.329632	T9qzsnpiiv	205.251.253.120	172.20.10.5	dSNwgkrZyc8	HTTP	0	(empty)	text/plain	-	0.026170	-	F	2317	-	0	0	F	-	-	-	-	-
-1376873315.941392	O4NfdFrNWS8	205.251.253.120	172.20.10.5	SRyUlvZXRWc	HTTP	0	(empty)	text/plain	-	0.414410	-	F	2803	-	0	0	F	-	-	-	-	-
-#close	2013-08-18-20-48-36
+1377109934.804945	gLjXNcDwuVd	107.21.223.173	172.16.168.116	VO4uZjsthhi	HTTP	0	(empty)	text/html	-	0.000000	-	F	97	97	0	0	F	-	-	-	-	-
+#close	2013-08-21-14-32-17
