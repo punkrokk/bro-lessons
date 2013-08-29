@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2013-08-20-16-13-51
+#fields	ts	level	message	location
+#types	time	enum	string	string
+1377029631.465126	Reporter::INFO	received termination signal	(empty)
+1377029631.465126	Reporter::INFO	411 packets received on interface en4, 0 dropped\x0a	(empty)
+1377029631.465126	Reporter::WARNING	Your interface is likely receiving invalid IP checksums, most likely from NIC checksum offloading.	/usr/local/bro/share/bro/base/misc/find-checksum-offloading.bro, line 42
+#close	2013-08-20-16-13-51
