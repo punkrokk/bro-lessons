@@ -3,12 +3,14 @@
 #empty_field	(empty)
 #unset_field	-
 #path	weird
-#open	2013-08-21-14-31-51
+#open	2013-08-29-15-04-32
 #fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
 #types	time	string	addr	port	addr	port	string	string	bool	string
-1377109911.912638	-	-	-	-	-	bad_IP_checksum	-	F	bro
-1377109912.772871	-	-	-	-	-	truncated_IP	-	F	bro
-1377109912.844001	-	-	-	-	-	unknown_packet_type	-	F	bro
-1377109923.701806	-	-	-	-	-	unknown_protocol_103	-	F	bro
-1377109934.804945	VO4uZjsthhi	172.16.168.116	60547	107.21.223.173	80	unmatched_HTTP_reply	-	F	bro
-#close	2013-08-21-14-32-17
+1377768872.597699	TYAYxNibwyf	172.20.10.1	5353	224.0.0.251	5353	DNS_label_too_long	-	F	bro
+1377768872.597699	TYAYxNibwyf	172.20.10.1	5353	224.0.0.251	5353	DNS_truncated_RR_rdlength_lt_len	-	F	bro
+1377768874.095143	LvocEsCJ6V	172.20.10.1	5351	172.20.10.5	5353	DNS_truncated_len_lt_hdr_len	-	F	bro
+1377768874.841862	RTkHfTzD7Fa	172.20.10.5	5353	224.0.0.251	5353	DNS_label_too_long	-	F	bro
+1377768874.841862	RTkHfTzD7Fa	172.20.10.5	5353	224.0.0.251	5353	DNS_truncated_RR_rdlength_lt_len	-	F	bro
+1377768874.841942	cC2sEHRY49k	fe80::1610:9fff:fed2:8383	5353	ff02::fb	5353	DNS_label_too_long	-	F	bro
+1377768874.841942	cC2sEHRY49k	fe80::1610:9fff:fed2:8383	5353	ff02::fb	5353	DNS_truncated_RR_rdlength_lt_len	-	F	bro
+#close	2013-08-29-15-04-36
