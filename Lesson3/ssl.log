@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2013-10-22-15-11-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string
+1382469069.264239	Cz59Uds6JYnhEtR0d	2600:1000:b113:3458:941:4b3:3d43:d0b7	65517	2607:f8b0:4006:800::100f	443	TLSv12	TLS_ECDHE_ECDSA_WITH_RC4_128_SHA	www.gstatic.com	ad80e53d69eb7d4df728972da71aaa491a59df792ec833bbae9a2bcd53031d45	-	-	-	-	-	-	-
+1382469069.321098	CJ0tzEgUurdXuTlCg	2600:1000:b113:3458:941:4b3:3d43:d0b7	65518	2607:f8b0:400d:c01::71	443	TLSv12	TLS_ECDHE_ECDSA_WITH_RC4_128_SHA	groups.google.com	5515ee69bdd0c93e4c17eaf37ceb8fcca286e527a72d3ad6b854ccb1696456a1	-	-	-	-	-	-	-
+1382469069.342444	Cg6JrE1i38nABsqLNf	2600:1000:b113:3458:941:4b3:3d43:d0b7	65516	2a00:1450:400c:c06::78	443	TLSv12	TLS_ECDHE_ECDSA_WITH_RC4_128_SHA	csi.gstatic.com	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1381329538.000000	1412865538.000000	-	-	-
+1382469069.603880	C6usi125Dw5gsZey3c	2600:1000:b113:3458:941:4b3:3d43:d0b7	65519	2607:f8b0:4006:800::100b	443	TLSv12	TLS_ECDHE_ECDSA_WITH_RC4_128_SHA	lh3.googleusercontent.com	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1381329708.000000	1412865708.000000	-	-	-
+1382469069.616401	C9Lj021pA97RljrKO3	2600:1000:b113:3458:941:4b3:3d43:d0b7	65520	2607:f8b0:4006:800::100b	443	TLSv12	TLS_ECDHE_ECDSA_WITH_RC4_128_SHA	lh5.googleusercontent.com	-	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority G2,O=Google Inc,C=US	1381329708.000000	1412865708.000000	-	-	-
+#close	2013-10-22-15-11-14

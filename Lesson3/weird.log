@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2013-10-22-12-33-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1382459592.961371	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1382459603.101367	-	-	-	-	-	unknown_packet_type	-	F	bro
+1382459621.868643	C32dUchzc3TEzHu74	192.168.200.88	137	192.168.200.9	137	DNS_label_too_long	-	F	bro
+1382459621.868643	C32dUchzc3TEzHu74	192.168.200.88	137	192.168.200.9	137	DNS_truncated_RR_rdlength_lt_len	-	F	bro
+1382459621.870375	CMs9ot4q0wRT70k9Wh	192.168.200.88	137	192.168.200.169	137	DNS_truncated_RR_rdlength_lt_len	-	F	bro
+1382459622.458560	CtSIOk1r7QeoaBozi9	192.168.200.88	137	192.168.200.81	137	DNS_truncated_RR_rdlength_lt_len	-	F	bro
+1382459622.618688	Ci3MPT1i35IhJpFPM5	192.168.200.88	137	192.168.200.11	137	DNS_truncated_RR_rdlength_lt_len	-	F	bro
+1382459623.069310	CG8vkFolsQVEr294	fe80::2acf:e9ff:fe15:d03d	5353	ff02::fb	5353	DNS_label_too_long	-	F	bro
+1382459623.069310	CG8vkFolsQVEr294	fe80::2acf:e9ff:fe15:d03d	5353	ff02::fb	5353	DNS_truncated_RR_rdlength_lt_len	-	F	bro
+1382459648.875710	C2qVAH29078Il0Tdsc	192.168.200.161	5353	224.0.0.251	5353	DNS_label_len_gt_pkt	-	F	bro
+1382459648.875710	C2qVAH29078Il0Tdsc	192.168.200.161	5353	224.0.0.251	5353	DNS_truncated_ans_too_short	-	F	bro
+1382459663.006465	C87ktP2VTXiopex93d	192.168.200.88	137	192.168.200.9	137	DNS_label_len_gt_pkt	-	F	bro
+1382459663.006465	C87ktP2VTXiopex93d	192.168.200.88	137	192.168.200.9	137	DNS_truncated_ans_too_short	-	F	bro
+1382459663.312379	CkjZ775xVIMAcjRi	192.168.200.88	137	192.168.200.81	137	DNS_truncated_ans_too_short	-	F	bro
+1382459663.313059	CZECAF4yyIxPLL5EQ8	192.168.200.88	137	192.168.200.11	137	DNS_truncated_ans_too_short	-	F	bro
+1382459705.710660	C339UB3T7dnpNJiXZ7	192.168.200.88	137	192.168.200.169	137	DNS_truncated_ans_too_short	-	F	bro
+#close	2013-10-22-12-35-06
